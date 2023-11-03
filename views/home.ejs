@@ -1,0 +1,16 @@
+<html>
+    <body>
+       My First EJS  Page
+       <%=name%>
+       <ul>
+        <%
+        
+        courses.forEach((item)=>{
+            %>
+            <li><%=item%></li>
+            
+        <%})
+        %>
+       </ul>
+    </body>
+</html>
